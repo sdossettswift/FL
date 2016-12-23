@@ -13,3 +13,5 @@ deploy:
   app: festinalente
   on:
     repo: sdossettswift/FL
+  run: 
+    - "rake db:migrate"
